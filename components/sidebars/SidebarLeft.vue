@@ -40,6 +40,7 @@
 
         <ul class="nav nav-pills flex-column">
 
+          <!-- Categories 
           <ul class="list-group">
             <NuxtLink 
               to="/"
@@ -54,6 +55,7 @@
           </ul>
 
           <hr />
+          -->
 
           <!-- Home 
           <li class="nav-item p-1" @click="closeLeftSidebar">
@@ -70,7 +72,7 @@
             </NuxtLink>
           </li>
 
-          <!-- Notifications -->
+          <!-- Notifications 
           <li v-if="isActivated" class="nav-item p-1" @click="closeLeftSidebar">
             <NuxtLink class="nav-link" :class="$route.path.startsWith('/notifications') ? 'active' : ''" aria-current="page" to="/notifications">
               <i class="bi bi-bell"></i> Notifications
@@ -83,6 +85,7 @@
 
             </NuxtLink>
           </li>
+          -->
 
           <!-- Profile -->
           <li v-if="isActivated" class="nav-item p-1" @click="closeLeftSidebar">

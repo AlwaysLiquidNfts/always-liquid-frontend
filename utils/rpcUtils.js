@@ -16,7 +16,8 @@ export function getRpcs() {
     "1284": "https://rpc.ankr.com/moonbeam",
     "42161": "https://rpc.ankr.com/arbitrum",
     "43114": "https://rpc.ankr.com/avalanche",
-    "80001": "https://polygon-mumbai-bor.publicnode.com"
+    "80001": "https://polygon-mumbai-bor.publicnode.com",
+    "421613": "https://goerli-rollup.arbitrum.io/rpc"
   }
 }
 
@@ -40,6 +41,7 @@ export function getRpcs2() {
     "4002": "https://rpc.ankr.com/fantom_testnet",
     "42161": "https://rpc.ankr.com/arbitrum",
     "43114": "https://rpc.ankr.com/avalanche",
-    "80001": "https://polygon-testnet.public.blastapi.io"
+    "80001": "https://polygon-testnet.public.blastapi.io",
+    "421613": "https://goerli-rollup.arbitrum.io/rpc"
   }
 }

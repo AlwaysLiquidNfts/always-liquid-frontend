@@ -206,6 +206,16 @@ export default defineNuxtPlugin(() => {
         nativeCurrency: { decimals: 18, name: "FLR", symbol: "FLR" }, 
         rpcUrls: [getRpcs2()[networkId]]
       }] 
+    } else if (networkName == "Arbitrum Goerli Testnet") {
+      networkId = 421613;
+      method = "wallet_addEthereumChain"
+      params = [{ 
+        blockExplorerUrls: [ "https://goerli.arbiscan.io/" ],
+        chainId: ethers.utils.hexValue(networkId),
+        chainName: "Arbitrum Goerli Testnet",
+        nativeCurrency: { decimals: 18, name: "ETH", symbol: "ETH" }, 
+        rpcUrls: [getRpcs2()[networkId]]
+      }] 
     }
 
     return { 

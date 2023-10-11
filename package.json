@@ -1,5 +1,5 @@
 {
-  "name": "iggy-social-frontend",
+  "name": "always-liquid-frontend",
   "private": true,
   "scripts": {
     "build": "nuxt build",

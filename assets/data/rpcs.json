@@ -12,5 +12,6 @@
   "1284": "https://rpc.ankr.com/moonbeam",
   "42161": "https://rpc.ankr.com/arbitrum",
   "43114": "https://rpc.ankr.com/avalanche",
-  "80001": "https://polygon-testnet.public.blastapi.io"
+  "80001": "https://polygon-testnet.public.blastapi.io",
+  "421613": "https://goerli-rollup.arbitrum.io/rpc"
 }

@@ -1,26 +1,21 @@
 <template>
-  <ChatFeed class="mt-1" :showQuotedPost="$config.showRepliesOnHomepage" :orbisContext="getOrbisContext" />
+  <!--
+  <ChatFeed class="mt-1" :showQuotedPost="$config.showRepliesOnHomepage" />
+  -->
+  <Nft :hideBackButton="true" />
 </template>
 
 <script>
 import { useEthers } from 'vue-dapp'
-import ChatFeed from "../components/chat/ChatFeed.vue"
+//import ChatFeed from "../components/chat/ChatFeed.vue"
+import Nft from "~/pages/nft/index.vue"
 
 export default {
   name: "index",
 
   components: {
-    ChatFeed
-  },
-
-  computed: {
-    getOrbisContext() {
-      if (this.$config.orbisTest) {
-        return this.$config.orbisTestContext;
-      } else {
-        return this.$config.orbisContext;
-      }
-    }
+    //ChatFeed,
+    Nft
   },
 
   setup() {
