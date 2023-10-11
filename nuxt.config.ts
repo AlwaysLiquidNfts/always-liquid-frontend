@@ -73,9 +73,9 @@ export default defineNuxtConfig({
       linkPreviews: "netlify", // "netlify" or "microlink" (or leave empty for no link previews)
       lpTokenAddress: "", // liquidity pool token (token to stake in the staking contract)
       lpTokenSymbol: "", // LP token symbol
-      marketplacePostNftUrl: "https://testnets.opensea.io/assets/arbitrum_goerli/0x4A82158ff4B0504F3DB4c7555FfB6298452985E2",
-      marketplacePostNftItemUrl: "https://testnets.opensea.io/assets/arbitrum_goerli/0x4A82158ff4B0504F3DB4c7555FfB6298452985E2/", // url (append nft id to it)
-      marketplaceNftCollectionBaseUrl: "https://testnets.opensea.io/assets/arbitrum_goerli/", // url (append nft address to it)
+      marketplacePostNftUrl: "https://testnets.opensea.io/assets/arbitrum-goerli/0x4A82158ff4B0504F3DB4c7555FfB6298452985E2",
+      marketplacePostNftItemUrl: "https://testnets.opensea.io/assets/arbitrum-goerli/0x4A82158ff4B0504F3DB4c7555FfB6298452985E2/", // url (append nft id to it)
+      marketplaceNftCollectionBaseUrl: "https://testnets.opensea.io/assets/arbitrum-goerli/", // url (append nft address to it)
       maxImageUploadSizeMb: 1, // max image upload size in MB
       newsletterLink: "",
       nftDefaultRatio: 1, // default ratio for the NFT price bonding curve
