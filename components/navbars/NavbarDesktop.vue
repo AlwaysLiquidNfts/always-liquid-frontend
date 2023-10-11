@@ -2,7 +2,8 @@
   <nav class="navbar navbar-expand-lg navbar-bg-custom">
     <div class="container-fluid mx-3">
       <NuxtLink class="navbar-brand" to="/">
-        <img src="/img/logo.svg" alt="Chat logo" height="45" />
+        <img src="/img/favicon.svg" alt="Chat logo" height="25" />
+        <span class="navbar-brand-text ms-2 align-middle">always liquid</span>
       </NuxtLink>
 
       <ul class="navbar-nav justify-content-end flex-grow-1">

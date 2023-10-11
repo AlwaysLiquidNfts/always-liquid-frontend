@@ -10,20 +10,25 @@
         <i class="bi bi-arrow-left-circle cursor-pointer"></i>
       </p>
 
-      <h3 class="mb-3 mt-3">Web3 Social is here.</h3>
+      <h3 class="mb-3 mt-3">Always Liquid NFTs.</h3>
 
       <p class="text-break mt-3">
-        Iggy Social Demo is showcase of an open-source template that anyone can use to build their own web3 social app.
+        AlwaysLiquid is a social NFT launchpad and marketplace, where NFTs are always liquid.
       </p>
 
       <p class="text-break mt-3">
-        Web3 Social is a place where social media is fully decentralized, permissionless and all the data is owned by users. 
-        The way it should be.
+        This means that you can always sell your token back to the pool and receive ETH for it - unless it's the last NFT in the 
+        collection. In that case, you can wait for a new mint.
       </p>
 
       <p class="text-break mt-3">
-        Let's leave the old world of corporation-controlled social media behind us and move towards a decentralized future. 
-        We promise, it's going to be a lot of fun!
+        NFTs created via the AlwaysLiquid platform are ERC-721 tokens, which means that they are fully compatible with OpenSea and other 
+        NFT marketplaces. You can list these NFTs on any marketplace, or send them to anyone without restrictions.
+      </p>
+
+      <p class="text-break mt-3">
+        In addition to being liquid, NFTs also allow for social features. Minting an NFT unlocks a hidden chat room for that NFT, 
+        where you can chat with other NFT holders.
       </p>
 
       <p class="text-break mt-3">
@@ -34,24 +39,9 @@
       <h5>Useful links</h5>
 
       <ul>
-        <li><a href="https://github.com/iggy-social" target="_blank">Iggy Social GitHub</a></li>
+        <li><a href="https://github.com/AlwaysLiquidNfts" target="_blank">AlwaysLiquid GitHub</a></li>
         <li><a href="https://github.com/punk-domains" target="_blank">Punk Domains GitHub</a></li>
         <li><a href="https://discord.gg/8dSrwrAQeu" target="_blank">Discord</a></li>
-      </ul>
-
-      <h5>Tech stack</h5>
-
-      <p class="text-break mt-3">
-        This chat is built on top of various decentralized and open source technologies, such as:
-      </p>
-
-      <ul>
-        <li><a href="https://ipfs.tech/" target="_blank">IPFS</a></li>
-        <li><a href="https://ceramic.network/" target="_blank">Ceramic Network</a></li>
-        <li><a href="https://useorbis.com/" target="_blank">Orbis</a></li>
-        <li><a href="https://punk.domains/" target="_blank">Punk Domains</a></li>
-        <li><a href="https://iggy.social/" target="_blank">Iggy Social</a></li>
-        <li>... and others.</li>
       </ul>
 
       <hr />
@@ -59,7 +49,7 @@
       <h5>Feedback</h5>
 
       <p class="text-break mt-3">
-        Feel free to post ideas, features suggestions, rants directly in this chat. 
+        Feel free to share ideas, features suggestions, rants in our Discord. 
       </p>
 
     </div>

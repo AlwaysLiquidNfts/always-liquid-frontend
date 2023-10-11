@@ -1,7 +1,7 @@
 <template>
 <Head>
-  <Title>NFT Launchpad | {{ $config.projectMetadataTitle }}</Title>
-  <Meta property="og:title" :content="'NFT Launchpad | ' + $config.projectMetadataTitle" />
+  <Title>{{ $config.projectMetadataTitle }}</Title>
+  <Meta property="og:title" :content="$config.projectMetadataTitle" />
 
   <Meta name="description" :content="'Check out these awesome NFT collections on ' + $config.projectName + '!'" />
 

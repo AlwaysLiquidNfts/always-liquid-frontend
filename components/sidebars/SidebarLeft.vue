@@ -57,20 +57,20 @@
           <hr />
           -->
 
-          <!-- Home 
+          <!-- Home -->
           <li class="nav-item p-1" @click="closeLeftSidebar">
             <NuxtLink class="nav-link" :class="$route.path === '/' ? 'active' : ''" aria-current="page" to="/">
-              <i class="bi bi-house"></i> Home
+              <i class="bi bi-house"></i> NFT Launchpad
             </NuxtLink>
           </li>
-          -->
 
-          <!-- NFT Launchpad -->
+          <!-- NFT Launchpad 
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
             <NuxtLink class="nav-link" :class="$route.path.startsWith('/nft') ? 'active' : ''" aria-current="page" to="/nft">
               <i class="bi bi-rocket-takeoff"></i> NFT Launchpad
             </NuxtLink>
           </li>
+          -->
 
           <!-- Notifications 
           <li v-if="isActivated" class="nav-item p-1" @click="closeLeftSidebar">
