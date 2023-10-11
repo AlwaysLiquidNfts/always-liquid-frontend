@@ -1,13 +1,12 @@
-# Iggy Social Template
+# AlwaysLiquid Frontend
 
-Iggy Social is a Web3 Social frontend website based on the [Iggy Social](https://iggy.social) template. It uses [Orbis SDK](https://useorbis.com) and [Ceramic Network](https://ceramic.network/) in the background. For usernames it uses [Punk Domains](https://punk.domains/).
+This repository holds the frontend code for the AlwaysLiquid web app: https://testnet.alwaysliquid.com/ 
 
-Demo 1 (Netlify): https://demo.iggy.social/
-Demo 2 (Vercel): https://demo2.iggy.social/
+Each AlwaysLiquid NFT collection has an integrated ETH pool that allows any NFT holder to always sell (and burn) their NFT and get back a certain amount of ETH (except the holder of the last remaining NFT in a collection).
 
-## Delete the .github folder
+When user buys/mints an NFT, the payment (minus fees) goes into the pool. Pricing is set based on a bonding curve. When user sells/burns their NFT, they get back an ETH amount that may be higher or lower for what they paid for (based on the current price on the bonding curve).
 
-This folder (and the main.yml file) is just for the purpose of mirroring this repo to other git servers (for backup reasons). You don't need this in your cloned project.
+The buy/sell mechanics does not interfere with other standard NFT functions, such as transferring an NFT. An NFT can also be freely traded on NFT marketplaces. The integrated pool does give NFTs an intrinsic value, though.
 
 ## .env
 
