@@ -195,10 +195,10 @@
 
   </div>
 
+  <!--
   <div class="card border mt-3 mb-3">
     <div class="card-body">
 
-      <!-- Tabs Navigation -->
       <ul class="nav nav-tabs nav-fill">
         <li class="nav-item">
           <button 
@@ -215,23 +215,20 @@
           >Mints</button>
         </li>
       </ul>
-      <!-- END Tabs Navigation -->
 
-      <!-- Tabs Content -->
       <div class="tab-content mt-3">
 
-        <!-- Posts Tab -->
         <div v-if="currentTab === 'posts' && uDid">
           <ChatFeed :byDid="uDid" :hideCommentBox="true" :allPosts="true" :orbisContext="getOrbisContext" />
         </div>
 
-        <!-- Mints Tab -->
         <div v-if="currentTab === 'mints' && uAddress">
           <UserMintedPosts :address="uAddress" />
         </div>
       </div>
     </div>
   </div>
+  -->
   </div>
 </template>
 
